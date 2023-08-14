@@ -9,7 +9,7 @@ import { UserDatabase } from "./UserDatabase";
 
 export class PostDatabase extends BaseDatabase {
   public static TABLE_POSTS = "posts";
-  public static TABLE_LIKES_DISLIKES: "likes_dislikes";
+  public static TABLE_LIKES_DISLIKES = "likes_dislikes";
 
   public async getAllPosts(): Promise<PostDB[]> {
     const response: PostDB[] = await BaseDatabase.connection(

@@ -77,8 +77,8 @@ export class PostBusiness {
       throw new BadRequestError(" Token inválido!");
     }
 
-    if (payload.role !== USER_ROLES.ADMIN) {
-      throw new BadRequestError(" Somente admins. podem acessar!");
+    if (payload.id !== creatorId) {
+      throw new BadRequestError(" Usuário não autorizado para criar o post!");
     }
 
     const id = this.idGenerator.generate();
