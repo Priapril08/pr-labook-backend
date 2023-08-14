@@ -46,8 +46,13 @@ PRAGMA table_info ("likes_dislikes");
 INSERT INTO users (id, name, email, password, role)
 VALUES
   -- ('u001', 'Beltrana', 'beltrana@email.com', 'beltrana00', 'X'),
-	-- ('u002', 'Ciclana', 'ciclana@email.com', 'ciclana01', 'w'),
-	('u004', 'Priscila', 'priscila@email.com', 'priscila74', 'ADMIN');
+	-- ('u002', 'Ciclana', 'ciclana@email.com', 'ciclana01', 'y'),
+  -- ('u003', 'Fulana', 'fulana@email.com', 'fulana02', 'z'),
+	--('u004', 'Priscila', 'priscila@email.com', 'priscila74', 'ADMIN'),
+  --('--', 'Dennis', '--', 'dennis79', 'ADMIN'),
+  --('--', 'Adriano', '--', 'adriano74', 'NORMAL'),
+  --('--', 'Roberto', '--', 'roberto56', 'NORMAL')
+  ('u004', 'Priscila', 'priscila@email.com', 'priscila74', 'ADMIN');
 
 INSERT INTO posts (id, creator_id, content, likes, dislikes)
 VALUES
