@@ -13,7 +13,7 @@ Aplicação com criação de API e banco de dados, no qual foi feito a implement
 
 ##  Quem Fez 
 
-- Projeto feito individual, by me *Priscila de Assumpção de Moraes, sob supervisão dos instrutores.
+- Projeto feito individual, by me *Priscila de Assumpção de Moraes, sob supervisão dos instrutores da Labenu.
 
 --
 
